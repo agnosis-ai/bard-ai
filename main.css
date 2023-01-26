@@ -6,7 +6,7 @@ body {
 
 body {
   font-size: 18pt;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   margin: auto;
   max-width: 600px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -30,20 +30,19 @@ h6 {
   text-align: center;
 }
 
-
 .title>span {
   display: inline-block;
-  font-size: 200%;
+  font-size: 250%;
   font-weight: bold;
   background-color: rgb(41, 79, 225);
   color: rgb(227, 160, 153);
   border-radius: 2rem;
   padding: 1rem;
-  margin: 1rem;
+  margin-bottom: 2rem;
 }
 
 .title-panel img {
-  width: 30rem;
+  width: 80%;
   border-radius: 2rem;
   margin: auto;
 }
@@ -73,7 +72,7 @@ h6 {
   margin-top: 2.5rem;
   width: calc(100% + 4rem);
   margin-left: -2rem;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
 
   z-index: 1;
 }
